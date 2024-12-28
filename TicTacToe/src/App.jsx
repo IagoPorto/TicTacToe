@@ -68,11 +68,16 @@ function App() {
     setTurn(newTurn)
     const newWinner = checkWinner(newBoard)
     if(newWinner){
-      setWinner(() => {
-        return newWinner
-      })
+      setWinner(newWinner)
+    }else if(checkEndGame(newBoard)){
+      setWinner(false)
     }
   }
+
+  const checkEndGame = (newBoard) => {
+    return newBoard.every((square) => square != null)
+  }
+
   
   return (
     <main className="board">
