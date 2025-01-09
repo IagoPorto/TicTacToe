@@ -2,7 +2,7 @@
 
 This is a simple **Tic-Tac-Toe** game built using **React** and **JavaScript**. It was created as part of a learning project to get familiar with React concepts such as state management, event handling, and component-based architecture.
 
-![TicTacToe](./photos/TicTacToe.png)
+![TicTacToe](./TicTacToe/photos/TicTacToe.png)
 
 ## Features
 
